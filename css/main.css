@@ -42,7 +42,7 @@ header {
 #logo {
   width: 40%;
   max-width: 300px;
-  padding: 30px 20px;
+  margin: 40px 20%;
   grid-area: logo;
 }
 
@@ -59,8 +59,7 @@ header {
 }
 
 .nav_menu {
-  max-width: 50vh;
-  margin: 40px 40px;
+  margin: 40px 20%;
   text-align: right;
 }
 .nav_menu a {
