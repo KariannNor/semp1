@@ -138,11 +138,25 @@ a {
   top: 0;
 }
 
+/*  MAIN SECTION */
+
+/* MEDIA QUERIES 
+  smaller screens */
+
+@media (max-width: 824px) {
+  .intro_section_2 {
+    display: inline-grid;
+    padding: 10px;
+  }
+}
 /* larger screens */
-@media (min-width: 768px) {
+@media (min-width: 825px) {
   .header .nav_menu {
     margin: 0 auto;
     clear: none;
     float: right;
+  }
+  .intro_section_2 {
+    display: flex;
   }
 }
