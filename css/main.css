@@ -213,7 +213,7 @@ a {
 }
 
 .intro_text {
-  padding: 40px 120px;
+  padding: 40px;
   text-align: left;
   height: fit-content;
   max-width: 1000px;
@@ -243,7 +243,7 @@ a {
   padding: 10px 120px;
   text-align: center;
   height: fit-content;
-  margin: 50px auto;
+  margin: 20px auto;
   max-width: 1200px;
 }
 
@@ -336,7 +336,7 @@ footer {
 
 .footer,
 .left {
-  margin: 40px;
+  margin: 40px 20px;
 }
 
 .right {
