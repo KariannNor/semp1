@@ -54,7 +54,7 @@ a {
 .header #logo {
   float: left;
   display: block;
-  width: 20vh;
+  max-width: 20vh;
   padding: 30px 30px 30px 30px;
   margin-left: 50px;
 }
@@ -348,12 +348,6 @@ footer {
 @media (max-width: 400px) {
   header {
     background-image: url(../images/top_v2_800_30kb.jpg);
-  }
-
-  header #logo {
-    width: 28vh;
-    padding: 30px 30px 30px 30px;
-    margin-left: 20px;
   }
 }
 
