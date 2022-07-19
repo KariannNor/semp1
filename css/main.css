@@ -31,6 +31,7 @@ header {
 main {
   display: grid;
   grid-area: main;
+  margin-top: 325px;
 }
 
 a {
@@ -360,9 +361,9 @@ footer {
 /*   EXPLORE SITE   */
 
 .crumbs {
-  margin-top: 300px;
-  padding: 15px 50px;
-  display: inline-flex;
+  margin-top: 20px;
+  padding: 0px 50px;
+  display: flex;
   gap: 5px;
 }
 
@@ -370,8 +371,10 @@ footer {
   text-decoration: underline;
 }
 
-.fullwidth {
+.fullwidth > img {
+  min-height: 40vh;
   max-width: 1200px;
+  object-fit: cover;
 }
 
 .article_title {
@@ -402,13 +405,17 @@ footer {
 /* MEDIA QUERIES 
   smaller screens */
 @media (max-width: 400px) {
+  main {
+    margin-top: 275px;
+  }
+
   .header #logo {
-    max-width: 30vh;
+    max-width: 20vh;
   }
 
   header {
     background-image: url(../images/top_v2_800_30kb.jpg);
-    min-height: 230px;
+    max-height: 230px;
   }
 
   h1,
@@ -482,9 +489,5 @@ footer {
 
   .intro_section_2 {
     display: flex;
-  }
-
-  .crumbs {
-    margin-top: 340px;
   }
 }
