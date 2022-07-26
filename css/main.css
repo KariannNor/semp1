@@ -419,6 +419,14 @@ footer {
     max-height: 230px;
   }
 
+  .crumbs {
+    margin-top: 10px;
+  }
+
+  .intro {
+    margin-top: -20px;
+  }
+  
   h1,
   .h1_xlarge {
     font-size: 60px;
@@ -427,9 +435,6 @@ footer {
   .footer,
   .left {
     margin: 40px 0px;
-  }
-  .crumbs {
-    margin-top: 10px;
   }
 }
 
