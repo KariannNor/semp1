@@ -65,6 +65,8 @@ p,
 
 .p2 {
   font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .bold {
@@ -212,7 +214,6 @@ a {
   padding: 40px;
   text-align: center;
   height: fit-content;
-  margin-top: 275px;
 }
 
 .intro_section_1 {
@@ -427,22 +428,23 @@ footer {
   .left {
     margin: 40px 0px;
   }
+  .crumbs {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 824px) {
   .header {
     min-height: 280px;
   }
-  .intro {
-    margin-top: 280px;
-  }
+
   .intro_section_2 {
     display: inline-grid;
     padding: 10px;
   }
 
   .section {
-    padding: 40px 50px;
+    padding: 10px 50px;
   }
 
   .grid_col_2,
