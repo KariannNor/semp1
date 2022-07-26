@@ -31,7 +31,7 @@ header {
 main {
   display: grid;
   grid-area: main;
-  margin-top: 325px;
+  margin-top: 300px;
 }
 
 a {
@@ -426,7 +426,7 @@ footer {
   .intro {
     margin-top: -20px;
   }
-  
+
   h1,
   .h1_xlarge {
     font-size: 60px;
