@@ -31,7 +31,7 @@ header {
 main {
   display: grid;
   grid-area: main;
-  margin-top: 300px;
+  margin-top: 275px;
 }
 
 a {
@@ -362,7 +362,7 @@ footer {
 /*   EXPLORE SITE   */
 
 .crumbs {
-  margin-top: 20px;
+  margin-top: 55px;
   padding: 0px 50px;
   display: flex;
   gap: 5px;
