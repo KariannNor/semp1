@@ -88,10 +88,6 @@ p,
   min-height: 275px;
 }
 
-/* img#logo {
-  background-color: rgba(0, 0, 0, 0.4);
-} */
-
 .header #logo {
   float: left;
   display: block;
@@ -242,7 +238,7 @@ a {
 }
 
 .opening {
-  margin: 50px 0 80px 0;
+  margin: 5px 0 80px 0;
 }
 
 .--mod {
@@ -409,11 +405,11 @@ footer {
   smaller screens */
 @media (max-width: 400px) {
   main {
-    margin-top: 275px;
+    margin-top: 200px;
   }
 
   .header #logo {
-    max-width: 20vh;
+    max-width: 25vh;
   }
 
   header {
@@ -442,7 +438,7 @@ footer {
 
 @media (max-width: 824px) {
   .header {
-    min-height: 280px;
+    min-height: 200px;
   }
 
   .intro_section_2 {
