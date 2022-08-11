@@ -38,6 +38,10 @@ a {
   color: #ffff;
 }
 
+.black {
+  color: black;
+}
+
 h1,
 .h1_xlarge {
   font-weight: 100;
@@ -365,7 +369,7 @@ footer {
 /*   EXPLORE SITE   */
 
 .crumbs {
-  margin-top: 55px;
+  margin-top: 80px;
   padding: 0px 50px;
   display: flex;
   gap: 5px;
