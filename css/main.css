@@ -34,9 +34,9 @@ main {
   margin-top: 275px;
 }
 
-a {
+/*a {
   color: #ffff;
-}
+}*/
 
 .black {
   color: black;
@@ -115,6 +115,7 @@ p,
   padding: 20px;
   border-bottom: 1px solid rgb(255, 255, 255);
   text-decoration: none;
+  color: white;
 }
 
 .header .nav_menu {
@@ -169,7 +170,7 @@ p,
 
 .header .hamburger:checked ~ .nav_menu {
   max-height: 500px;
-  background-color: #7500d091;
+  background-color: #00000080;
 }
 
 .header .hamburger:checked ~ .menu_icon .nav_icon {
@@ -194,6 +195,10 @@ p,
   text-align: left;
 }
 
+.mod-tighter {
+  margin: 20px 0 -20px 0;
+}
+
 .mod--black {
   color: black;
 }
@@ -211,7 +216,7 @@ a {
 }
 
 .intro {
-  background-color: #ddffe7;
+  background-color: #f0f0f0;
   padding: 40px;
   text-align: center;
   height: fit-content;
@@ -345,6 +350,9 @@ a {
   margin: 40px auto;
 }
 
+
+
+
 /* FOOTER */
 
 footer {
@@ -409,6 +417,11 @@ footer {
 .slide_right {
   float: right;
   margin: 50px 0;
+}
+
+/*   Visit us   */
+.fullwidth-mod {
+  margin: 50px 0 50px 0;
 }
 
 /* MEDIA QUERIES 
