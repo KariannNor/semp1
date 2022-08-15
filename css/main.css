@@ -31,7 +31,7 @@ header {
 main {
   display: grid;
   grid-area: main;
-  margin-top: 275px;
+  margin-top: 400px;
 }
 
 /*a {
@@ -86,7 +86,7 @@ p,
 
 .header {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-  position: fixed;
+  position: absolute; /*removed fixed*/
   width: 100%;
   z-index: 3;
   min-height: 275px;
@@ -107,12 +107,12 @@ p,
 }
 
 .header ul a:hover {
-  background-color: rgba(250, 14, 42, 0.3);
+  background-color: #7500d0;
 }
 
 .header li a {
   display: block;
-  padding: 20px;
+  padding: 16px;
   border-bottom: 1px solid rgb(255, 255, 255);
   text-decoration: none;
   color: white;
@@ -350,9 +350,6 @@ a {
   margin: 40px auto;
 }
 
-
-
-
 /* FOOTER */
 
 footer {
@@ -387,11 +384,14 @@ footer {
   text-decoration: underline;
 }
 
-.fullwidth > img {
+.fullwidth img {
   min-height: 20vh;
   max-width: 1200px;
   object-fit: cover;
   max-height: 30vh;
+}
+.img2 {
+  display: none;
 }
 
 .article_title {
@@ -453,6 +453,14 @@ footer {
     font-size: 60px;
   }
 
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    display: block;
+  }
+
   .footer,
   .left {
     margin: 40px 0px;
@@ -462,6 +470,10 @@ footer {
 @media (max-width: 824px) {
   .header {
     min-height: 200px;
+  }
+
+  main {
+    margin-top: 375px;
   }
 
   .intro_section_2 {
@@ -490,12 +502,12 @@ footer {
   .--mod {
     text-align: right;
     font-size: 18px;
-    margin: -40px 40px;
+    margin: -35px 40px;
     text-align: end;
   }
 
   .right {
-    margin: -110px 0px 0 0;
+    margin: -125px 0px 0 0;
   }
 }
 
