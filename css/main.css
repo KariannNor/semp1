@@ -31,7 +31,7 @@ header {
 main {
   display: grid;
   grid-area: main;
-  margin-top: 275px;
+  /* margin-top: 275px;*/ /*DENNE ER tatt ut*/
 }
 
 /*a {
@@ -218,7 +218,8 @@ a {
 
 .intro {
   background-color: #f0f0f0;
-  padding: 40px;
+  /*padding: 40px; DENNE ER TATT BORT*/
+  padding: 320px 20px 0 20px; /*DENNE ER LAGT TIL*/
   text-align: center;
   height: fit-content;
 }
@@ -375,7 +376,7 @@ footer {
 /*   EXPLORE SITE   */
 
 .crumbs {
-  margin-top: 200px;
+  margin-top: 350px; /*DENNE ER LAGT TIL fra 200px*/
   padding: 0px 50px;
   display: flex;
   gap: 5px;
@@ -428,9 +429,9 @@ footer {
 /* MEDIA QUERIES 
   smaller screens */
 @media (max-width: 400px) {
-  main {
-    margin-top: 230px;
-  }
+  /*main {
+    margin-top: 200px;
+  }*/ /*DENNE ER LAGT TATT BORT*/
 
   .header #logo {
     max-width: 25vh;
@@ -443,10 +444,12 @@ footer {
 
   .crumbs {
     margin-top: 10px;
+    padding: 0 10px; /*DENNE ER LAGT TIL*/
   }
 
   .intro {
-    margin-top: -20px;
+    /*margin-top: -20px;  DENNE ER TATT BORT*/
+    padding: 200px 20px 0 20px; /*DENNE ER LAGT TIL*/
   }
 
   h1,
@@ -471,10 +474,6 @@ footer {
 @media (max-width: 824px) {
   .header {
     min-height: 200px;
-  }
-
-  main {
-    margin-top: 200px;
   }
 
   .intro_section_2 {
