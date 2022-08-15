@@ -31,7 +31,7 @@ header {
 main {
   display: grid;
   grid-area: main;
-  margin-top: 400px;
+  margin-top: 275px;
 }
 
 /*a {
@@ -428,7 +428,7 @@ footer {
   smaller screens */
 @media (max-width: 400px) {
   main {
-    margin-top: 200px;
+    margin-top: 230px;
   }
 
   .header #logo {
@@ -473,7 +473,7 @@ footer {
   }
 
   main {
-    margin-top: 375px;
+    margin-top: 200px;
   }
 
   .intro_section_2 {
