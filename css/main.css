@@ -261,7 +261,7 @@ a {
 }
 
 .section {
-  padding: 10px 120px;
+  padding: 10px 40px; /*padding: 10px 120px;*/
   text-align: center;
   height: fit-content;
   margin: 20px auto;
@@ -374,7 +374,7 @@ footer {
 /*   EXPLORE SITE   */
 
 .crumbs {
-  margin-top: 80px;
+  margin-top: 200px;
   padding: 0px 50px;
   display: flex;
   gap: 5px;
