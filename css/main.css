@@ -190,6 +190,13 @@ p,
 
 /*  MAIN SECTION */
 
+.crumbs {
+  margin-top: 350px; /*DENNE ER LAGT TIL fra 200px*/
+  padding: 0px 50px;
+  display: flex;
+  gap: 5px;
+}
+
 /* --- Explore together --- */
 
 .mod {
@@ -317,7 +324,7 @@ a {
   margin-bottom: 20px;
 }
 
-/* button styles */
+/* button and links styles */
 
 .btn {
   max-width: 250px;
@@ -352,6 +359,18 @@ a {
   margin: 40px auto;
 }
 
+.contact a {
+  color: black;
+}
+
+.contact a:hover {
+  color: #7500d0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* FOOTER */
 
 footer {
@@ -374,13 +393,6 @@ footer {
 }
 
 /*   EXPLORE SITE   */
-
-.crumbs {
-  margin-top: 350px; /*DENNE ER LAGT TIL fra 200px*/
-  padding: 0px 50px;
-  display: flex;
-  gap: 5px;
-}
 
 .active {
   text-decoration: underline;
@@ -434,7 +446,7 @@ footer {
   }*/ /*DENNE ER LAGT TATT BORT*/
 
   .header #logo {
-    max-width: 25vh;
+    max-width: 18vh;
   }
 
   header {
@@ -443,7 +455,7 @@ footer {
   }
 
   .crumbs {
-    margin-top: 10px;
+    margin-top: 240px; /*DENNE ER LAGT TIL fra 10px*/
     padding: 0 10px; /*DENNE ER LAGT TIL*/
   }
 
