@@ -314,6 +314,10 @@ a {
   justify-content: center;
 }
 
+.tighter {
+  margin: -60px 20px 15px 20px;
+}
+
 .card_title {
   text-align: left;
   margin: 10px 0;
@@ -493,9 +497,9 @@ footer {
     padding: 10px;
   }
 
-  .section {
-    padding: 10px 50px;
-  }
+  /* .section {
+    padding: 10px 50px;   TESTER Å TA DENNE UT
+  }*/
 
   .grid_col_2,
   .grid_col_3,
@@ -541,5 +545,10 @@ footer {
 
   .intro_section_2 {
     display: flex;
+  }
+
+  .tighter {
+    margin: -60px 0px 12px 0px;
+    padding: 50px 180px;
   }
 }
