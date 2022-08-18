@@ -41,12 +41,7 @@ header {
 main {
   display: grid;
   grid-area: main;
-  /* margin-top: 275px;*/ /*DENNE ER tatt ut*/
 }
-
-/*a {
-  color: #ffff;
-}*/
 
 .black {
   color: var(--color02);
@@ -97,10 +92,10 @@ p,
 
 .header {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-  position: absolute; /*removed fixed*/
+  position: absolute;
   width: 100%;
   z-index: 3;
-  min-height: 275px;
+  height: 300px;
 }
 
 .header #logo {
@@ -201,7 +196,7 @@ p,
 /*  MAIN SECTION */
 
 .crumbs {
-  margin-top: 350px; /*DENNE ER LAGT TIL fra 200px*/
+  margin-top: 310px;
   padding: 0px 50px;
   display: flex;
   gap: 5px;
@@ -456,12 +451,8 @@ footer {
 /* MEDIA QUERIES 
   smaller screens */
 @media (max-width: 400px) {
-  /*main {
-    margin-top: 200px;
-  }*/ /*DENNE ER LAGT TATT BORT*/
-
   .header #logo {
-    max-width: 18vh;
+    max-width: 25vh;
   }
 
   header {
@@ -470,8 +461,8 @@ footer {
   }
 
   .crumbs {
-    margin-top: 280px; /*DENNE ER LAGT TIL fra 10px*/
-    padding: 0 10px; /*DENNE ER LAGT TIL*/
+    margin-top: 250px;
+    padding: 0 10px;
   }
 
   .intro {
@@ -499,18 +490,10 @@ footer {
 }
 
 @media (max-width: 824px) {
-  /*.header {
-    min-height: 200px;
-  }*/
-
   .intro_section_2 {
     display: inline-grid;
     padding: 10px;
   }
-
-  /* .section {
-    padding: 10px 50px;   TESTER Å TA DENNE UT
-  }*/
 
   .grid_col_2,
   .grid_col_3,
@@ -542,8 +525,12 @@ footer {
 @media (min-width: 825px) {
   header {
     background-image: url(../images/top_v2_1900_150kb.jpg);
+    min-height: 330px;
   }
 
+  .crumbs {
+    margin-top: 340px;
+  }
   .header #logo {
     max-width: 25vh;
   }
