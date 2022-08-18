@@ -1,3 +1,13 @@
+:root {
+  --color01: #7500d0;
+  --color02: #000000;
+  --color03: #ffffff;
+  --color04: #f0f0f0;
+  --color05: #bdffd0;
+  --color-tint01: #00000080;
+  --color-tint02: rgba(250, 250, 250, 0.7);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -39,21 +49,21 @@ main {
 }*/
 
 .black {
-  color: black;
+  color: var(--color02);
 }
 
 h1,
 .h1_xlarge {
   font-weight: 100;
   font-size: 80px;
-  color: #7500d0;
+  color: var(--color01);
   padding-bottom: 20px;
 }
 
 h2 {
   font-weight: 700;
   font-size: 32px;
-  color: black;
+  color: var(--color02);
 }
 
 p,
@@ -65,7 +75,7 @@ p,
 .h4 {
   font-weight: 300;
   font-size: 20px;
-  color: #7500d0;
+  color: var(--color01);
 }
 
 .p2 {
@@ -108,15 +118,15 @@ p,
 }
 
 .header ul a:hover {
-  background-color: #7500d0;
+  background-color: var(--color01);
 }
 
 .header li a {
   display: block;
   padding: 16px;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid var(--color03);
   text-decoration: none;
-  color: white;
+  color: var(--color03);
 }
 
 .header .nav_menu {
@@ -170,8 +180,8 @@ p,
 }
 
 .header .hamburger:checked ~ .nav_menu {
-  max-height: 500px;
-  background-color: #00000080;
+  max-height: 400px;
+  background-color: var(--color-tint01);
 }
 
 .header .hamburger:checked ~ .menu_icon .nav_icon {
@@ -208,7 +218,7 @@ p,
 }
 
 .mod--black {
-  color: black;
+  color: var(--color02);
 }
 
 .mod--strong {
@@ -224,7 +234,7 @@ a {
 }
 
 .intro {
-  background-color: #f0f0f0;
+  background-color: var(--color04);
   /*padding: 40px; DENNE ER TATT BORT*/
   padding: 320px 20px 0 20px; /*DENNE ER LAGT TIL*/
   text-align: center;
@@ -309,7 +319,7 @@ a {
 }
 .card_modifier {
   padding: 50px;
-  background-color: #bdffd0;
+  background-color: var(--color05);
   margin-bottom: 47px;
   justify-content: center;
 }
@@ -335,7 +345,7 @@ a {
   padding: 15px 40px;
   border-radius: 50px;
   margin-top: 20px;
-  color: white;
+  color: var(--color03);
   border: none;
   font-size: 18px;
   margin: 10px 10px;
@@ -343,32 +353,32 @@ a {
 }
 
 .purple {
-  background-color: #7500d0;
+  background-color: var(--color01);
   font-weight: 300;
 }
 
 .overlay {
   max-width: 335px;
-  border: solid 2px #7500d0;
-  background-color: rgba(250, 250, 250, 0.7);
-  color: #7500d0;
+  border: solid 2px var(--color01);
+  background-color: var(--color-tint02);
+  color: var(--color01);
   font-size: 18px;
   position: absolute;
 }
 
 .purple--outline {
-  border: solid 2px #7500d0;
+  border: solid 2px var(--color01);
   background-color: none;
-  color: #7500d0;
+  color: var(--color01);
   margin: 40px auto;
 }
 
 .contact a {
-  color: black;
+  color: var(--color02);
 }
 
 .contact a:hover {
-  color: #7500d0;
+  color: var(--color01);
 }
 
 a:hover {
@@ -379,7 +389,7 @@ a:hover {
 
 footer {
   width: 100%;
-  background-color: #f4f3f3;
+  background-color: var(--color04);
 }
 .logo {
   display: flex;
@@ -414,14 +424,14 @@ footer {
 
 .article_title {
   margin: 30px auto;
-  color: black;
+  color: var(--color02);
   font-size: 32pt;
 }
 
 .plug {
   text-align: left;
   margin-top: 30px;
-  color: #7500d0;
+  color: var(--color01);
 }
 .slide.text {
   text-align: left;
@@ -460,7 +470,7 @@ footer {
   }
 
   .crumbs {
-    margin-top: 240px; /*DENNE ER LAGT TIL fra 10px*/
+    margin-top: 280px; /*DENNE ER LAGT TIL fra 10px*/
     padding: 0 10px; /*DENNE ER LAGT TIL*/
   }
 
@@ -489,9 +499,9 @@ footer {
 }
 
 @media (max-width: 824px) {
-  .header {
+  /*.header {
     min-height: 200px;
-  }
+  }*/
 
   .intro_section_2 {
     display: inline-grid;
