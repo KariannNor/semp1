@@ -216,10 +216,6 @@ p,
   color: var(--color02);
 }
 
-.mod--strong {
-  font-weight: 300;
-}
-
 li {
   font-size: 25px;
 }
