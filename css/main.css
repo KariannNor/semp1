@@ -545,3 +545,10 @@ footer {
     padding: 50px 180px;
   }
 }
+
+/* Extra large screens*/
+@media (min-width: 1000px) {
+  header {
+    padding: 0 15%;
+  }
+}
