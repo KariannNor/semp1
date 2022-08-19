@@ -4,7 +4,7 @@
   --color03: #ffffff;
   --color04: #f0f0f0;
   --color05: #bdffd0;
-  --color-tint01: #00000080;
+  --color-tint01: #000000ba;
   --color-tint02: rgba(250, 250, 250, 0.7);
 }
 
@@ -135,7 +135,7 @@ p,
   padding: 20px 10px 20px 10px;
   float: right;
   cursor: pointer;
-  background: #7500d0;
+  background: var(--color01);
   margin: 24px;
 }
 
