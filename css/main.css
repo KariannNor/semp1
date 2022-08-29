@@ -226,8 +226,7 @@ a {
 
 .intro {
   background-color: var(--color04);
-  /*padding: 40px; DENNE ER TATT BORT*/
-  padding: 320px 20px 0 20px; /*DENNE ER LAGT TIL*/
+  padding: 320px 20px 0 20px;
   text-align: center;
   height: fit-content;
 }
@@ -271,7 +270,7 @@ a {
 }
 
 .section {
-  padding: 10px 40px; /*padding: 10px 120px;*/
+  padding: 10px 40px;
   text-align: center;
   height: fit-content;
   margin: 20px auto;
@@ -462,8 +461,7 @@ footer {
   }
 
   .intro {
-    /*margin-top: -20px;  DENNE ER TATT BORT*/
-    padding: 200px 20px 0 20px; /*DENNE ER LAGT TIL*/
+    padding: 200px 20px 0 20px;
   }
 
   h1,
