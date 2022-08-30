@@ -347,6 +347,10 @@ a {
   font-weight: 300;
 }
 
+.purple:hover {
+  background-color: var(--color02);
+}
+
 .overlay {
   max-width: 335px;
   border: solid 2px var(--color01);
@@ -361,6 +365,12 @@ a {
   background-color: none;
   color: var(--color01);
   margin: 40px auto;
+}
+
+.purple--outline:hover {
+  background-color: var(--color02);
+  color: var(--color03);
+  border: solid 2px var(--color03);
 }
 
 .contact a {
